@@ -8,23 +8,33 @@
         <entry key="app/src/main/res/drawable-v24/ic_baseline_account_balance_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.2578125" />
         <entry key="app/src/main/res/drawable/ic_appleicon.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_bxcheckdouble.xml" value="0.271875" />
         <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.17171052631578948" />
         <entry key="app/src/main/res/drawable/ic_googleicon.xml" value="0.17171052631578948" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.24166666666666667" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/cardview_courses.xml" value="0.2517948717948718" />
         <entry key="app/src/main/res/layout/fragment_about_app.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_account_security.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/fragment_confirm_payment.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_contact.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/fragment_courses.xml" value="0.19572368421052633" />
+        <entry key="app/src/main/res/layout/fragment_courses.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_courses_web.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_couses.xml" value="0.14447463768115942" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.28431372549019607" />
+        <entry key="app/src/main/res/layout/fragment_edit_profile.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_email_notification.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_error_payment.xml" value="0.29299691040164777" />
+        <entry key="app/src/main/res/layout/fragment_my_cart.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.14447463768115942" />
         <entry key="app/src/main/res/layout/fragment_push_notification.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.14447463768115942" />
         <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_video_screen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/toolbar_actionbar.xml" value="0.2557291666666667" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2557291666666667" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>

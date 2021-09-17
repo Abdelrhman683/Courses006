@@ -8,30 +8,39 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.bido.courses.DashboardFragment"
+        android:name="com.bido.courses.fragment.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
     <fragment
         android:id="@+id/navigation_courses"
-        android:name="com.bido.courses.CoursesFragment"
+        android:name="com.bido.courses.fragment.CoursesFragment"
         tools:layout="@layout/fragment_courses" />
 
     <fragment
         android:id="@+id/navigation_search"
-        android:name="com.bido.courses.SearchFragment"
+        android:name="com.bido.courses.fragment.SearchFragment"
         android:label="@string/search"
         tools:layout="@layout/fragment_search" />
 
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.bido.courses.ProfileFragment"
+        android:name="com.bido.courses.fragment.ProfileFragment"
         android:label="@string/profile"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/navigation_settings"
-        android:name="com.bido.courses.SettingsFragment"
+        android:name="com.bido.courses.fragment.SettingsFragment"
         android:label="@string/settings"
-        tools:layout="@layout/fragment_setting" />
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_navigation_settings_to_aboutAppFragment3"
+            app:destination="@id/aboutAppFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutAppFragment"
+        android:name="com.bido.courses.settings.AboutAppFragment"
+        android:label="fragment_about_app"
+        tools:layout="@layout/fragment_about_app" />
 </navigation>
