@@ -1,0 +1,184 @@
+{
+  "project_info": {
+    "project_number": "964259009808",
+    "project_id": "courses-48a3a",
+    "storage_bucket": "courses-48a3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964259009808:android:23af1f7fec05aa76e74195",
+        "android_client_info": {
+          "package_name": "com.amb.courses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJY3YgIcCfXym3I-XV9NvQ2pqXlUn9xs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964259009808:android:2c6cd55dbfcd4f99e74195",
+        "android_client_info": {
+          "package_name": "com.bido.courses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJY3YgIcCfXym3I-XV9NvQ2pqXlUn9xs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964259009808:android:e6e5a29379b86f2ee74195",
+        "android_client_info": {
+          "package_name": "com.platform.courses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJY3YgIcCfXym3I-XV9NvQ2pqXlUn9xs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964259009808:android:e6d1c5276338e4dae74195",
+        "android_client_info": {
+          "package_name": "com.platform.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJY3YgIcCfXym3I-XV9NvQ2pqXlUn9xs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964259009808:android:549a44441c61e97ce74195",
+        "android_client_info": {
+          "package_name": "com.sha.courses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJY3YgIcCfXym3I-XV9NvQ2pqXlUn9xs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964259009808:android:04fdbb881507316ce74195",
+        "android_client_info": {
+          "package_name": "com.tsm.courses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJY3YgIcCfXym3I-XV9NvQ2pqXlUn9xs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964259009808-0pubrbgb9eq3blus8g9mepm7r2cn01lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

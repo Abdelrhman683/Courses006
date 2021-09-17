@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/courses.xml" value="0.17171052631578948" />
+        <entry key="app/src/main/res/drawable-v24/ic_appleicon.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_account_balance_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.2578125" />
+        <entry key="app/src/main/res/drawable/ic_appleicon.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.17171052631578948" />
+        <entry key="app/src/main/res/drawable/ic_googleicon.xml" value="0.17171052631578948" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_about_app.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_account_security.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/fragment_contact.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_courses.xml" value="0.19572368421052633" />
+        <entry key="app/src/main/res/layout/fragment_couses.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.28431372549019607" />
+        <entry key="app/src/main/res/layout/fragment_email_notification.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/fragment_push_notification.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
