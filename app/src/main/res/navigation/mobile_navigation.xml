@@ -37,10 +37,42 @@
         <action
             android:id="@+id/action_navigation_settings_to_aboutAppFragment3"
             app:destination="@id/aboutAppFragment" />
+        <action
+            android:id="@+id/action_navigation_settings_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_navigation_settings_to_accountSecurityFragment"
+            app:destination="@id/accountSecurityFragment" />
+        <action
+            android:id="@+id/action_navigation_settings_to_pushNotificationFragment"
+            app:destination="@id/pushNotificationFragment" />
+        <action
+            android:id="@+id/action_navigation_settings_to_emailNotificationFragment"
+            app:destination="@id/emailNotificationFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutAppFragment"
         android:name="com.bido.courses.settings.AboutAppFragment"
         android:label="fragment_about_app"
         tools:layout="@layout/fragment_about_app" />
+    <fragment
+        android:id="@+id/accountSecurityFragment"
+        android:name="com.bido.courses.settings.AccountSecurityFragment"
+        android:label="fragment_account_security"
+        tools:layout="@layout/fragment_account_security" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.bido.courses.settings.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/pushNotificationFragment"
+        android:name="com.bido.courses.settings.PushNotificationFragment"
+        android:label="fragment_push_notification"
+        tools:layout="@layout/fragment_push_notification" />
+    <fragment
+        android:id="@+id/emailNotificationFragment"
+        android:name="com.bido.courses.settings.EmailNotificationFragment"
+        android:label="fragment_email_notification"
+        tools:layout="@layout/fragment_email_notification" />
 </navigation>

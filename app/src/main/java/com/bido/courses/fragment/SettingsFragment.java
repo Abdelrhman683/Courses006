@@ -19,7 +19,7 @@ import com.bido.courses.settings.AccountSecurityFragment;
 
 public class SettingsFragment extends Fragment {
 
-    Button btn,btn2;
+    Button btn,btn2,btn3,btn4,btn5;
 
 
     @Override
@@ -34,10 +34,19 @@ public class SettingsFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-                NavDirections action =
-                        SettingsFragmentDirections
-                                .actionSpecifyAmountFragmentToConfirmationFragment();
-                Navigation.findNavController(view).navigate(action);
+                Navigation.findNavController(view).navigate(R.id.action_navigation_settings_to_aboutAppFragment3);
+
+
+            } });
+
+
+
+        btn =v.findViewById(R.id.button7);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Navigation.findNavController(view).navigate(R.id.action_navigation_settings_to_accountSecurityFragment);
 
 
             } });

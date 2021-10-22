@@ -12,9 +12,9 @@
         <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.17171052631578948" />
         <entry key="app/src/main/res/drawable/ic_googleicon.xml" value="0.17171052631578948" />
         <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.24166666666666667" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.165" />
         <entry key="app/src/main/res/layout/cardview_courses.xml" value="0.2517948717948718" />
         <entry key="app/src/main/res/layout/fragment_about_app.xml" value="0.1" />
