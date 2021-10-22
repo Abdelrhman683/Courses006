@@ -41,6 +41,7 @@
         >
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
@@ -66,6 +67,7 @@
         app:layout_constraintStart_toStartOf="@+id/textInputLayout3">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
