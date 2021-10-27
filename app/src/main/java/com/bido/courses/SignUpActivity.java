@@ -56,7 +56,8 @@ public class SignUpActivity extends AppCompatActivity {
 
         fname = fnametxt.getText().toString().trim();
         lname = lnametxt.getText().toString().trim();
-        String email = emailtxt.getText().toString().trim();
+
+         email = emailtxt.getText().toString().trim();
         String password = passwordtxt.getText().toString().trim();
 
 
