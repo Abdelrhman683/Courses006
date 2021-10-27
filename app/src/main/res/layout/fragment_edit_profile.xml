@@ -56,12 +56,13 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView28">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/profile_frist_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:fontFamily="@font/montserrat"
             android:inputType="text"
-            android:text="Allie"
+            android:text=""
             android:textColor="@color/purple_500"
             android:textSize="16sp"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -86,12 +87,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout6">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/profile_last_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:fontFamily="@font/montserrat"
             android:inputType="text"
-            android:text="Grater"
+            android:text=""
             android:textColor="@color/purple_500"
             android:textColorHint="@color/purple_500"
             android:textSize="16sp"
@@ -118,12 +120,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout8">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/profile_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:fontFamily="@font/montserrat"
             android:inputType="textEmailAddress"
-            android:text="alliegrater@gmail.com"
+            android:text=""
             android:textColor="@color/purple_500"
             android:textSize="16sp"
             />
