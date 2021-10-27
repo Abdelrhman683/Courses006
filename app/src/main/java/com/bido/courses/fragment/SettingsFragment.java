@@ -17,7 +17,7 @@ import com.bido.courses.settings.AboutAppFragment;
 import com.bido.courses.settings.AccountSecurityFragment;
 
 
-public class SettingsFragment extends Fragment {
+public class   SettingsFragment extends Fragment {
 
     Button btn,btn2,btn3,btn4,btn5;
 
@@ -35,6 +35,41 @@ public class SettingsFragment extends Fragment {
             public void onClick(View view) {
 
                 Navigation.findNavController(view).navigate(R.id.action_navigation_settings_to_aboutAppFragment3);
+
+
+            } });
+
+
+
+
+        btn3 =v.findViewById(R.id.button5);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Navigation.findNavController(view).navigate(R.id.action_navigation_settings_to_emailNotificationFragment);
+
+
+            } });
+
+
+        btn4 =v.findViewById(R.id.button6);
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Navigation.findNavController(view).navigate(R.id.action_navigation_settings_to_pushNotificationFragment);
+
+
+            } });
+
+
+        btn5 =v.findViewById(R.id.button10);
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Navigation.findNavController(view).navigate(R.id.action_navigation_settings_to_contactFragment);
 
 
             } });

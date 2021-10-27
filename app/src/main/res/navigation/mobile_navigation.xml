@@ -27,7 +27,11 @@
         android:id="@+id/navigation_profile"
         android:name="com.bido.courses.fragment.ProfileFragment"
         android:label="@string/profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_settings"
@@ -75,4 +79,9 @@
         android:name="com.bido.courses.settings.EmailNotificationFragment"
         android:label="fragment_email_notification"
         tools:layout="@layout/fragment_email_notification" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.bido.courses.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" />
 </navigation>
