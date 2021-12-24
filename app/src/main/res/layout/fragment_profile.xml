@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/montserrat"
-        android:text="TextView"
+        android:text="Edit Profile"
         android:textColor="@color/charcoalGrey"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,6 +46,7 @@
         android:fontFamily="@font/montserrat"
         android:text="TextView"
         android:textColor="@color/charcoalGrey"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView62" />

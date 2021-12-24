@@ -14,7 +14,11 @@
     <fragment
         android:id="@+id/navigation_courses"
         android:name="com.bido.courses.fragment.CoursesFragment"
-        tools:layout="@layout/fragment_courses" />
+        tools:layout="@layout/fragment_courses" >
+        <action
+            android:id="@+id/action_navigation_courses_to_myCartFragment"
+            app:destination="@id/myCartFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_search"
@@ -84,4 +88,32 @@
         android:name="com.bido.courses.EditProfileFragment"
         android:label="fragment_edit_profile"
         tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/confirmPaymentFragment"
+        android:name="com.bido.courses.ConfirmPaymentFragment"
+        android:label="fragment_confirm_payment"
+        tools:layout="@layout/fragment_confirm_payment" >
+        <action
+            android:id="@+id/action_confirmPaymentFragment_to_videoScreenFragment"
+            app:destination="@id/videoScreenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.bido.courses.courses.webFragment"
+        android:label="fragment_courses_web"
+        tools:layout="@layout/fragment_courses_web" />
+    <fragment
+        android:id="@+id/myCartFragment"
+        android:name="com.bido.courses.MyCartFragment"
+        android:label="fragment_my_cart"
+        tools:layout="@layout/fragment_my_cart" >
+        <action
+            android:id="@+id/action_myCartFragment_to_confirmPaymentFragment"
+            app:destination="@id/confirmPaymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoScreenFragment"
+        android:name="com.bido.courses.VideoScreenFragment"
+        android:label="fragment_video_screen"
+        tools:layout="@layout/fragment_video_screen" />
 </navigation>

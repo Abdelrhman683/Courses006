@@ -34,9 +34,26 @@ public class LoginActivity extends AppCompatActivity {
         signupbtn.setOnClickListener(view -> singup());
 
     }
+
     private void login(){
+
+
+
         String email = emailtxt.getText().toString().trim();
         String password = passwordtxt.getText().toString().trim();
+
+
+        if (email.isEmpty()){
+emailtxt.setError("Enter email");
+return;
+        }
+
+
+        if (password.isEmpty()){
+            passwordtxt.setError("Enter Password");
+            return;
+        }
+
         mAuth.signInWithEmailAndPassword(email,password)
                 .addOnCompleteListener(this,task -> {
                     if (task.isSuccessful()){

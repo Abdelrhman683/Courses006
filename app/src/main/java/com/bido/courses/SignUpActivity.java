@@ -18,9 +18,9 @@ import com.google.firebase.firestore.FirebaseFirestore;
 public class SignUpActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     Button loginbtn, signupbtn;
-    TextInputEditText emailtxt ,passwordtxt,fnametxt,lnametxt;
+    TextInputEditText emailtxt, passwordtxt, fnametxt, lnametxt;
     String key;
-    public static String fname="",lname="", password="",email="";
+    public static String fname = "", lname = "", password = "", email = "";
 
     FirebaseFirestore firebaseFirestore = FirebaseFirestore.getInstance();
 
@@ -32,12 +32,12 @@ public class SignUpActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_sign_up);
         mAuth = FirebaseAuth.getInstance();
-        loginbtn= findViewById(R.id.button);
-        signupbtn= findViewById(R.id.button2);
-        emailtxt= findViewById(R.id. email);
-        passwordtxt= findViewById(R.id.password);
-        fnametxt= findViewById(R.id.fname);
-        lnametxt= findViewById(R.id.lname);
+        loginbtn = findViewById(R.id.button);
+        signupbtn = findViewById(R.id.button2);
+        emailtxt = findViewById(R.id.email);
+        passwordtxt = findViewById(R.id.password);
+        fnametxt = findViewById(R.id.fname);
+        lnametxt = findViewById(R.id.lname);
 
         loginbtn.setOnClickListener(view -> Login());
         signupbtn.setOnClickListener(view -> signup());
@@ -46,29 +46,46 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
 
+    private void Login() {
 
-    private void Login(){
-
-        startActivity(new Intent(SignUpActivity.this,LoginActivity.class));
+        startActivity(new Intent(SignUpActivity.this, LoginActivity.class));
     }
-    private void signup(){
+
+    private void signup() {
 
 
         fname = fnametxt.getText().toString().trim();
         lname = lnametxt.getText().toString().trim();
 
-         email = emailtxt.getText().toString().trim();
-        String password = passwordtxt.getText().toString().trim();
+        email = emailtxt.getText().toString().trim();
+         password = passwordtxt.getText().toString().trim();
 
+        if (fname.isEmpty()) {
 
-        if (password.length()<6){
+            fnametxt.setError("First name Empty");
 
-            Toast.makeText(this, "password should be at least 6 characters", Toast.LENGTH_SHORT).show();
+            return;
         }
-        CreatUserByEmail(email,password);
+        if (lname.isEmpty()) {
+
+            lnametxt.setError("Last name Empty");
+
+            return;
+        }
+        if (email.isEmpty()) {
+            emailtxt.setError("Email not found");
+
+            return;
+        }
+       if (password.isEmpty() || password.length() < 8){
+            passwordtxt.setError("Password must be 8 number ");
+        return;
+    }
 
 
 
+
+    CreatUserByEmail(email, password);
 
 
 
